@@ -1,0 +1,33 @@
+.Chips {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+    margin-top: 4.9%;
+    margin-left: 4.8%;
+}
+.star,
+.star::before,
+.star::after{
+    width: 0;
+    border-color: transparent transparent rgb(26, 23, 23) transparent;
+    border-width: 0 1.4rem 0.95rem 1.4rem;
+    border-style: solid;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+.star::before{
+    content: '';
+    margin-left: -1.4rem;
+    transform: rotate(71deg);
+}
+
+.star::after{
+    content: '';
+    margin-left: -1.4rem;
+    transform: rotate(-71deg);
+}

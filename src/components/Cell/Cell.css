@@ -1,0 +1,96 @@
+
+.Cell {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.7px solid black;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.num4, .num7, .num10, .num13, .num16, .num19, .num22, .num12 {
+    background-color: rgba(244, 0, 74, 0.79);
+}
+
+.num33, .num34, .num35, .num36, .num37, .num38, .num39, .num44 {
+    background-color: rgba(50, 126, 213, 0.79);
+}
+
+.num86, .num85, .num84, .num83, .num82, .num81, .num80, .num75 {
+    background-color: rgba(37, 170, 154, 0.79);
+}
+
+.num67, .num64, .num61, .num58, .num55, .num52, .num49, .num59 {
+    background-color: rgba(243, 249, 23, 0.79);
+}
+
+.num21, .num22, .num23 {
+    grid-row: 8 / end;
+    align-items: flex-start;
+}
+
+.num31, .num39, .num47 {
+    grid-column: 8 /  10;
+    justify-content: start;
+}
+
+.num48, .num49, .num50 {
+    align-items: flex-end;;
+    grid-row: 1 /3;
+}
+.num88, .num80, .num72 {
+    justify-content: end;
+    grid-column: 1 /3;
+}
+.num48 span, .num49 span, .num50 span {
+    margin-bottom: 10%;
+}
+.num21 span, .num22 span, .num23 span{
+    margin-top: 10%;
+}
+
+.num31 {
+    clip-path: polygon( 0  0, 0 0 , 100% 100%, 0 100% );
+}
+.num50 {
+    clip-path: polygon( 0  0, 0 0 , 100% 100%, 0 100% );
+}
+.num21 {
+    clip-path: polygon( 0%  0%, 100% 0% , 100% 100%, 100% 100% );
+}
+.num88 {
+    clip-path: polygon( 0%  0%, 100% 0% , 100% 100%, 100% 100% );
+}
+
+.num47 {
+    clip-path: polygon( 0%  0%, 100% 0% , 100% 0%, 0 100% );
+}
+.num23 {
+    clip-path: polygon( 0%  0%, 100% 0% , 100% 0%, 0 100% );
+}
+
+.num48 {
+    clip-path: polygon( 100%  100%, 100% 0% ,0% 100%, 0% 100% );
+}
+.num72 {
+    clip-path: polygon( 100%  100%, 100% 0% ,0% 100%, 0% 100% );
+}
+
+.circle {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.vertical .circle {
+        width: 50%;
+        height: 100%;
+       
+}
+.horizontal .circle {
+        width: 100%;
+        height: 50%;
+}

@@ -1,0 +1,14 @@
+.Board {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    grid-template-columns: repeat(20, 1.5fr);
+    grid-template-rows: repeat(20, 1.5fr);
+}
+

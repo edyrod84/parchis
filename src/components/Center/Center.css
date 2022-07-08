@@ -1,0 +1,11 @@
+
+.Center {
+    width: 0px;
+    height: 0px;
+    border-bottom: 106px solid rgba(243, 249, 23, 1);
+    border-left: 112px solid rgba(50, 126, 213, 1);
+    border-top: 106px solid rgba(244, 0, 74, 1);
+    border-right: 113px solid rgba(37, 170, 154, 1);
+    justify-self: center;
+    position: absolute;
+}

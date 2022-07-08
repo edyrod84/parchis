@@ -1,0 +1,12 @@
+.UserBox {
+    display: grid;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.75);
+    margin: 5%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+}
